@@ -18,6 +18,9 @@ const config = {
     options: {
     }
   },
+  alias: {
+    '@': path.resolve(__dirname, '../src'),
+  },
   framework: 'react',
   mini: {
     postcss: {
